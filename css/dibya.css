@@ -1,0 +1,83 @@
+@import url('manrope.css');
+
+@font-face {
+    font-family: 'dibya';
+    src: url('Fontfabric\ -\ Nexa\ Script.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Manrope';
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    max-width: 950px;
+    min-width: 320px;
+    margin: auto;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.all-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.game-heading {
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #1b1b1b;
+}
+
+h1 i.fas {
+    font-weight: 400;
+    margin: 0px 10px;
+    font-size: 0px;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.iframe-for-game {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.iframe {
+    height: 600px;
+    width: 900px;
+    max-width: 100%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 3px 15px -1px rgb(46, 46, 46);
+    display: block;
+    margin: auto;
+}
+
+.dibya {
+    font-family: 'dibya';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.text-for-dibya {
+    text-align: start;
+    font-size: 18px;
+    margin: 30px 10px;
+    font-weight: 400;
+}
+
+.text-for-dibya P {
+    padding: 2px;
+}
