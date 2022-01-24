@@ -10,7 +10,6 @@
 body {
     background: rgb(37, 38, 49);
     color: #fff;
-    -webkit-tap-highlight-color:transparent;
 }
 
 .header {
