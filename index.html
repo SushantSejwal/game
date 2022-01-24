@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors | Sushant</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading">Rock Paper Scissors</h1>
+    </header>
+
+    <div class="all-container">
+        <div class="score-board">
+            <div class="badge" id="user-score"><span class="badge-span" id="user-score-span">User</span></div>
+            <div class="badge" id="score-score"><span class="badge-span" id="user-score-count">0</span>:<span class="badge-span" id="computer-score-count">0</span></div>
+            <div class="badge" id="computer-score"><span class="badge-span" id="computer-score-span">Comp</span></div>
+        </div>
+        <div class="result">
+            <p id="user-result" class="result-para">you choose &RightArrow; &nbsp;<span class="user-result-span">.......</span></p>
+            <p id="computer-result" class="result-para">Computer choose &RightArrow; &nbsp;<span class="computer-result-span">.......</span></p>
+            <p id="who-win" class="result-para">choose one thing to start</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="rock"><img src="img/rock.png" alt="rock" class="rock-img choice-img"></div>
+            <div class="choice" id="paper"><img src="img/paper.png" alt="paper" class="paper-img choice-img"></div>
+            <div class="choice" id="scissors"><img src="img/scissor.png" alt="scissors" class="scissors-img choice-img"></div>
+        </div>
+        <div class="move">
+            <p class="move-para">Make your move</p>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>

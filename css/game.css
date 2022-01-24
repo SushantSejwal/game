@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background: rgb(37, 38, 49);
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.header .heading {
+    font-weight: 700;
+    color: rgb(37, 38, 49);
+}
+
+/* all container */
+.all-container {
+    text-align: center;
+    padding: 10px;
+}
+
+/* score board */
+.score-board {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 310px;
+    height: 90px;
+    margin: 15px auto 20px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-score {
+    position: absolute;
+    top: calc(50% - 18.5px);
+    left: -30px;
+    font-size: 18px;
+    background-color: rgb(227, 88, 98);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#computer-score {
+    position: absolute;
+    top: calc(50% - 18.5px);
+    right: -44px;
+    font-size: 18px;
+    background-color: rgb(227, 88, 98);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#score-score {
+    font-size: 43px;
+}
+
+/* result */
+.result{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+.result-para {
+    font-size: 25px;
+    text-align: start;
+    padding: 10px;
+}
+
+#who-win{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 10px;
+}
+
+/* Choices */
+.choices {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice {
+    width: 100px;
+    /* aspect-ratio: 1/1; */
+    height: 100px;
+    margin: 15px;
+    border: 2px dotted #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.choice:hover {
+    background: rgb(52, 54, 73);
+}
+
+.choice-img {
+    width: 80px;
+    max-width: 90px;
+    min-width: auto;
+}
+
+.rock-img {
+    transform: rotate(10deg);
+}
+
+.scissors-img {
+    transform: rotate(-10deg);
+}
+
+.move-para {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.win-green{
+    border: 2px solid rgb(27, 216, 27);
+    box-shadow: 0px 0px 10px rgb(22, 145, 22);
+}
+
+.loose-red{
+    border: 2px solid rgb(230, 14, 14);
+    box-shadow: 0px 0px 10px rgb(167, 5, 5);
+}
+
+.draw-yellow{
+    border: 2px solid rgb(223, 247, 8);
+    box-shadow: 0px 0px 10px rgb(212, 209, 0);
+}
